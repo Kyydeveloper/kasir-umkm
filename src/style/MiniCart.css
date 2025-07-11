@@ -1,0 +1,35 @@
+.mini-cart {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 250px;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 1500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mini-cart-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.mini-cart-items {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.mini-cart-item {
+  padding: 4px 0;
+  font-size: 0.9rem;
+}
+
+.mini-cart-total {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: right;
+}
